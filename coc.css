@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("background_image4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: space-between;
+  opacity: 0.95;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  color: yellow;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: yellow;
+  transition: 0.4s;
+}
+
+.btn {
+  position: absolute;
+  left: 650px;
+  top: 580px;
+  opacity: 0.8;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 20px 50px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  color: yellow;
+  transform: scale(1.2);
+}
+
+.sec2 {
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  padding-top: 70px;
+  padding-bottom: 64px;
+}
+
+.sec2 img {
+  width: 900px;
+  height: auto;
+  margin-left: -230px;
+}
+
+.about-text {
+  width: 555px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h2 {
+  font-size: 34px;
+  text-align: left;
+  margin-bottom: 20px;
+  letter-spacing: 0.025px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.store-links {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 70px;
+  justify-content: space-evenly;
+  gap: 12px;
+}
+
+.store-links a img {
+  height: 45px;
+  width: auto;
+}
+
+.wrap {
+  width: 1500px;
+  padding: 80px 9%;
+  padding-bottom: 90px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+  color: #777;
+  border-bottom: 2px solid #ccc;
+}
+
+.wrap .card {
+  padding-bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 6px 24px -6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+
+.wrap .card a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.wrap .card img {
+  width: 100%;
+  height: auto;
+}
+
+.wrap .card .container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap .card .container p {
+  padding-left: 50px;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  color: #2d85f3;
+}
+
+.wrap .card .container img {
+  height: 20px;
+  width: auto;
+  padding-right: 50px;
+}
+
+.wrap .card .container p:hover {
+  color: gray;
+}
+
+.p1 {
+  position: absolute;
+  top: 2070px;
+  left: 360px;
+  width: 8%;
+}
+
+.p2 {
+  position: absolute;
+  top: 2070px;
+  left: 1000px;
+  width: 8%;
+}
+
+.sec4 {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 64px;
+  background-image: url("news.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sec4 img {
+  width: 900px;
+  height: auto;
+  margin-left: -230px;
+}
+
+.sec4 .about-text4 {
+  width: 555px;
+}
+
+.main4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sec4 .about-text4 h2 {
+  color: #fff;
+  font-size: 34px;
+  text-align: left;
+  margin-bottom: 20px;
+  letter-spacing: 0.025px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.sec4 .about-text4 p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.sec4 .about-text4 h5 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.56;
+  padding-top: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 70px;
+  justify-content: space-evenly;
+  padding-left: 80px;
+}
+
+.social-links a img {
+  height: 25px;
+  width: auto;
+}
+
+.footer {
+  padding: 40px 0;
+  background-color: black;
+}
+
+.footer .linkss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.footer .social-ll {
+  display: flex;
+  justify-content: left;
+  gap: 25px;
+  padding-top: 25px;
+}
+
+.footer .social-ll a {
+  opacity: 0.6;
+}
+
+.footer .social-ll a:hover {
+  opacity: 1;
+}
+
+.footer .social-ll img {
+  height: 25px;
+  width: auto;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 40px;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 0;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
